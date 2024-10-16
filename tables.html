@@ -1,0 +1,93 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+<!--add css style tag :style+tab-->
+    <!--call on your table element :table+tab-->
+<!--when adding border consider color e.g blue, thickness e.g solid, line-->
+<!--to style all i.e table,tr,th& tdtable,tr,th,td{
+          border:blue 1px solid;
+      }-->
+    <style>
+
+      table,tr,th,td{
+          border:blue 1px solid;
+          border-collapse: collapse;
+      }
+      .kk{background-color:green;
+          color:white;
+
+      }
+      h2{background-color:cadetblue;
+          border-radius:6px 0 10px 0
+          border-bottom: red 2px solid;
+          font-family: "Segoe UI Emoji";
+
+
+      }
+      th{
+          width: 20%;
+      }
+
+    </style>
+</head>
+<body>
+<h2>HTML Tables</h2>
+<!--to add table add table element by :table +tab-->
+<!--to add rows :tr+tab-->
+<!--to add table headings: th+tab-->
+<!--each entry represents a new row-->
+<table>
+<tr>
+    <th>Rank</th>
+    <th>name</th>
+    <th>points</th>
+    <th>team</th>
+
+</tr>
+<!--you can assign classes to particular rows to style them differently-->
+<!--to call on class press dot (.) then class name-->
+<!--to call on id press # then id name-->
+
+    <tr class="kk">
+<!--input table data :td+ tab-->
+      <td>1</td>
+        <td>Mark</td>
+        <td>59</td>
+        <td>A</td>
+
+    </tr>
+    <tr>
+      <td>2</td>
+        <td>Jane</td>
+        <td>57</td>
+        <td>B</td>
+    </tr>
+    <tr>
+      <td>3</td>
+        <td>Kyle</td>
+        <td>56</td>
+        <td>C</td>
+    </tr>
+    <tr>
+      <td>4</td>
+        <td>James</td>
+        <td>55</td>
+        <td>D</td>
+    </tr>
+</table>
+
+
+
+
+
+
+
+
+
+</body>
+</html>
